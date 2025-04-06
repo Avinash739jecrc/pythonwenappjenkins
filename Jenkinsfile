@@ -4,7 +4,7 @@ pipeline {
         AZURE_CREDENTIALS_ID = 'azure-service-principal'
         RESOURCE_GROUP = 'myResourceGroup'
         APP_SERVICE_NAME = 'myPythonAppAvinash01'
-        PATH = "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python312"
+        PATH = "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python312;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python312\\Scripts"
     }
 
     stages {
